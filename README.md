@@ -7,13 +7,13 @@ Jede Lektion folgt demselben Muster: **Intuition & Animation → Mathematik → 
 
 | Baustein | Wo |
 |---|---|
-| 🌐 Lektionen mit interaktiven Animationen, Formeln und Quizzen | `website/` |
-| 🎬 Erklärvideos (Manim) | in die Lektionen eingebettet, Quellcode in `videos/` |
-| 💻 Übungs-Notebooks mit Lückencode | `notebooks/modul-XX/` |
-| ✅ Lösungen (ausgeführt, mit Ausgaben) | `notebooks/modul-XX/loesungen/` |
-| 🛠 Mini-Projekt pro Modul | Projektseite + Notebook |
-| 📝 Notizbuch mit automatischem Inhaltsverzeichnis | Seitenleiste auf jeder Seite |
-| 🎥 NotebookLM: Prompts für alle 96 Themen + Quellen pro Modul | `notebooklm/` |
+| Lektionen mit interaktiven Animationen, Formeln und Quizzen | `website/` |
+| Erklärvideos (Manim) | in die Lektionen eingebettet, Quellcode in `videos/` |
+| Übungs-Notebooks mit Lückencode | `notebooks/modul-XX/` |
+| Lösungen (ausgeführt, mit Ausgaben) | `notebooks/modul-XX/loesungen/` |
+| Mini-Projekt pro Modul | Projektseite + Notebook |
+| Notizbuch mit automatischem Inhaltsverzeichnis | Seitenleiste auf jeder Seite |
+| NotebookLM: Prompts für alle 96 Themen + Quellen pro Modul | `notebooklm/` |
 
 ## Loslegen
 
@@ -22,7 +22,7 @@ Jede Lektion folgt demselben Muster: **Intuition & Animation → Mathematik → 
 Öffne einfach `website/index.html` im Browser (Doppelklick). Es wird kein Internet benötigt – Formeln (KaTeX) und Videos liegen lokal.
 Dein Fortschritt (erledigte Lektionen, Quiz-Ergebnisse) wird im Browser gespeichert.
 
-**Notizen:** Über „📝 Notizen“ oben rechts (oder <kbd>Strg</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd>) öffnest du auf jeder Seite dein Notizbuch.
+**Notizen:** Über „Notizen“ oben rechts (oder <kbd>Strg</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd>) öffnest du auf jeder Seite dein Notizbuch.
 Zeilen wie `1. Titel`, `2. Titel` oder `1.1 Unterpunkt` werden automatisch zum anklickbaren Inhaltsverzeichnis.
 „+ Lektion als Überschrift“ fügt die aktuelle Lektion als nächste Nummer ein. Die Notizen liegen nur in deinem Browser –
 sichere sie ab und zu mit „Exportieren“ als Markdown-Datei.
@@ -49,7 +49,7 @@ Arbeite die Notebooks parallel zu den Lektionen durch. Zellen mit `# TODO` sind 
 
 | Modul | Thema | Status |
 |---|---|---|
-| 1 | **Grundlagen & Mathe** – Was ist ML, Vektoren & Matrizen, Statistik & Wahrscheinlichkeit, Ableitungen & Gradienten, Verlustfunktionen & Gradientenabstieg | ✅ verfügbar |
+| 1 | **Grundlagen & Mathe** – Was ist ML, Vektoren & Matrizen, Statistik & Wahrscheinlichkeit, Ableitungen & Gradienten, Verlustfunktionen & Gradientenabstieg | verfügbar |
 | 2 | Daten & der scikit-learn-Workflow – Pipelines, Kreuzvalidierung, Metriken, Bias-Varianz, Hyperparameter-Suche | geplant |
 | 3 | Lineare Modelle – lineare & logistische Regression, Ridge, Lasso, Elastic Net, Softmax | geplant |
 | 4 | Nachbarn & Wahrscheinlichkeiten – kNN, Naive Bayes, LDA/QDA | geplant |
